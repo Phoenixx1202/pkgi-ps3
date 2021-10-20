@@ -35,23 +35,23 @@ msgstr "Download conclu¡do"
 
 #: pkgi.c:122
 msgid "Task successfully queued (reboot to start)"
-msgstr "Adicionado a fila com sucesso (reinicie para come‡ar)"
+msgstr "Adicionado a fila com sucesso (reinicie para começar)"
 
 #: pkgi.c:163
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: pkgi.c:167 pkgi_download.c:249
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: pkgi.c:171 pkgi.c:504 pkgi_download.c:253
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: pkgi.c:175
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: pkgi.c:185
 #, c-format
@@ -108,7 +108,7 @@ msgstr "Sair para XMB?"
 
 #: pkgi.c:436
 msgid "No items!"
-msgstr "Nao h  Itens!"
+msgstr "Nao h  itens!"
 
 #: pkgi.c:462
 msgid "Item already installed, download again?"
@@ -184,7 +184,7 @@ msgstr "Lista vazia... revise o servidor DB"
 
 #: pkgi_db.c:390
 msgid "ERROR: pkgi.txt file(s) missing or bad config.txt file"
-msgstr "ERRO: arquivo pkgi.txt ausente ou arquivo config.txt ‚ inv lido"
+msgstr "ERRO: Arquivo pkgi.txt ausente ou arquivo config.txt ‚ inv lido"
 
 #: pkgi_dialog.c:80
 msgid "Content"
@@ -264,11 +264,11 @@ msgstr "Nao foi poss¡vel criar o arquivo PKG para o HDD"
 
 #: pkgi_download.c:360
 msgid "Could not create task files to HDD."
-msgstr "Nao foi poss¡vel criar arquivos de parefa para o HDD"
+msgstr "Nao foi poss¡vel criar arquivos de tarefa para o HDD"
 
 #: pkgi_download.c:425
 msgid "HTTP download error"
-msgstr "Erro de download HTTP"
+msgstr "Erro de Download HTTP"
 
 #: pkgi_download.c:432
 msgid "HTTP connection closed"
@@ -296,7 +296,7 @@ msgstr "Pkg corrompido, realize o download novamente"
 
 #: pkgi_download.c:573
 msgid "Creating RAP file"
-msgstr "Criando Arquivo RAP"
+msgstr "Criando arquivo RAP"
 
 #: pkgi_download.c:581 pkgi_download.c:626
 msgid "Cannot save"
@@ -316,7 +316,7 @@ msgstr "Adicionando tarefa em segundo plano..."
 
 #: pkgi_download.c:675
 msgid "Downloading icon"
-msgstr "Baixando Icone"
+msgstr "Baixando icone"
 
 #: pkgi_download.c:713
 msgid "Could not create install directory on HDD."
@@ -388,7 +388,7 @@ msgstr "Recarregar..."
 
 #: pkgi_menu.c:326
 msgid "Direct DL"
-msgstr "DL Direto"
+msgstr "Baixar Direto"
 
 #msgid "---translated by---"
 #msgstr "Jeferson Silva and Phoenixx1202"
