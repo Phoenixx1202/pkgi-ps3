@@ -10,10 +10,10 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <iconv.h>
+// Linha 14: Remova o include que falhou e use o universal
+#include <unistd.h> // NOVO: Para a função 'usleep' ou 'sys_timer_usleep'
 
-#include <sys/timer.h> // Deixar, pois o arquivo pode existir em outro lugar
-#include <sys/process.h> // Deixar
-#include <unistd.h>      // Geralmente necessário para 'usleep' (pode resolver o timer)
+// O resto do arquivo deve permanecer como no código que enviei antes.
 
 // ===========================================================
 // Conversor UTF-8 → Latin-1 (ISO-8859-1) para textos no PS3
