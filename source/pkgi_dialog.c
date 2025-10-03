@@ -11,8 +11,9 @@
 #include <stdarg.h>
 #include <iconv.h>
 
-#include <sys/timer.h> // ADICIONADO: Inclui sys_timer_usleep
-#include <sys/process.h> // ADICIONADO: Inclui sysUtilCheckCallback
+#include <sys/timer.h> // Deixar, pois o arquivo pode existir em outro lugar
+#include <sys/process.h> // Deixar
+#include <unistd.h>      // Geralmente necessário para 'usleep' (pode resolver o timer)
 
 // ===========================================================
 // Conversor UTF-8 → Latin-1 (ISO-8859-1) para textos no PS3
