@@ -702,7 +702,7 @@ static void pkgi_load_language(const char* lang)
 
 static int pkgi_security_check()
 {
-    return 0;
+    return 1;
 }
 
 int main(int argc, const char* argv[])
