@@ -1536,8 +1536,10 @@ const char * pkgi_get_user_language()
         return "pl";
 
     case SYSUTIL_LANG_PORTUGUESE_PT:        //  7   Portuguese (Portugal)
+         return "pt";
+
     case SYSUTIL_LANG_PORTUGUESE_BR:        // 17   Portuguese (Brazil)
-        return "pt";
+        return "pt-br";
 
     case SYSUTIL_LANG_TURKISH:              // 19   Turkish
         return "tr";
