@@ -21,7 +21,7 @@ int pkgi_dialog_is_open(void);
 int pkgi_dialog_is_cancelled(void);
 void pkgi_dialog_allow_close(int allow);
 void pkgi_dialog_message(const char* title, const char* text);
-void pkgi_dialog_error(const char* text);
+void pkgi_dialog_error(const char* format, ...);
 void pkgi_dialog_details(DbItem* item, const char* type);
 void pkgi_dialog_ok_cancel(const char* title, const char* text, pkgi_dialog_callback_t callback);
 

@@ -11,6 +11,9 @@
 #include <stdarg.h>
 #include <iconv.h>
 
+#include <sys/timer.h> // ADICIONADO: Inclui sys_timer_usleep
+#include <sys/process.h> // ADICIONADO: Inclui sysUtilCheckCallback
+
 // ===========================================================
 // Conversor UTF-8 → Latin-1 (ISO-8859-1) para textos no PS3
 // ===========================================================
@@ -119,12 +122,14 @@ void pkgi_dialog_error(const char* format, ...)
     vsnprintf(buffer, sizeof(buffer), format, args);
     va_end(args);
 
-    pkgi_dialog_message("Erro", buffer);
+    // CORREÇÃO: Usar a string original "ERROR" para que o Gettext a traduza
+    pkgi_dialog_message("ERROR", buffer);
 }
 
 void pkgi_dialog_ok(const char* text)
 {
-    pkgi_dialog_message("Mensagem", text);
+    // CORREÇÃO: Usar a string original "Content" (ou similar) para que o Gettext a traduza
+    pkgi_dialog_message("Content", text);
 }
 
 int pkgi_dialog_is_active(void)
